@@ -12,7 +12,7 @@ jobs:
       arch: amd64
       script:
         - python hello_world.py
-    - os: linux
+    - os : linux
       language: cpp
       script: docker pull debian:buster-slim
     
